@@ -1,0 +1,16 @@
+{
+  "name": "csgowiki-docs",
+  "version": "1.0.0",
+  "description": "docs for csgowiki",
+  "main": "index.js",
+  "repository": "https://github.com/hx-w/csgowiki-docs.git",
+  "author": "hx-w <herixth@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}

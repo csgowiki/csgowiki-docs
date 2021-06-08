@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://ibed.csgowiki.top/new_avatar
+heroImage: https://ibed.csgowiki.top/image/circle_avatar
 heroText: CSGOWiki
 tagline: CS:GO相关的Web服务实现
 actionText: 快速开始 →

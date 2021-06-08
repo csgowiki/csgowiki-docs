@@ -32,6 +32,7 @@ module.exports = {
         ],
     ],
     themeConfig: {
+        dest: 'public',
         search: true,
         searchMaxSuggestions: 5,
         smoothScroll: true,
@@ -54,20 +55,5 @@ module.exports = {
             { text: '消息中继服务', link: '/message-channel/' },
             { text: 'FAQ', link: '/faq/' }
         ],
-        sidebar: {
-            '/guide/': [
-            ],
-            '/api/': [
-                '',
-            ],
-            '/event/': [
-                '',
-            ],
-            '/cqcode/': [
-                '',
-            ],
-            '/faq/': [
-            ]
-        }
     }
 }

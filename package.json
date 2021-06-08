@@ -7,7 +7,8 @@
   "author": "hx-w <herixth@163.com>",
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-theme-vdoing": "^1.8.3"
   },
   "scripts": {
     "docs:dev": "vuepress dev docs",

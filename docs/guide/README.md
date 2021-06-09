@@ -4,8 +4,7 @@
 
 ## CSGOWiki主站
 
-![Uptime CI](https://github.com/website-200/csgowiki-bot/workflows/Uptime%20CI/badge.svg)![Response Time CI](https://github.com/website-200/csgowiki-bot/workflows/Response%20Time%20CI/badge.svg)
-
+![Uptime CI](https://github.com/website-200/csgowiki-bot/workflows/Uptime%20CI/badge.svg)
 
 [**Visit CSGOWiki →**](https://csgowiki.top)
 

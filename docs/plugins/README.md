@@ -1,7 +1,7 @@
 # 简介
 ## CSGOWiki-Pack
 
-[**CSGOWiki-Pack**](https://github.com/hx-w/CSGOWiki-Plugins)是CSGOWiki的游戏服务器插件，使用sourcemod实现。
+[**CSGOWiki-Pack**](https://github.com/hx-w/CSGOWiki-Plugins)是基于sourcemod实现的CSGOWiki游戏服务器插件。
 
 ::: tip 插件下载
 

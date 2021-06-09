@@ -38,7 +38,7 @@ module.exports = {
         smoothScroll: true,
         lastUpdated: '上一次编辑',
         docsDir: 'docs',
-        docsBranch: 'main',
+        docsBranch: 'master',
         repo: 'hx-w/CSGOWiki-Plugins',
         repoLabel: 'GitHub',
         docsRepo: 'hx-w/csgowiki-docs',

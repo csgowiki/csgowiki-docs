@@ -33,9 +33,9 @@
 
 sourcemod中的常规指令有以下几种表示形式：
 
-1. **`sm_XXX <args>`** 在控制台中输入。
-2. **`!XXX <args>`** 在聊天框中输入并回显。
-3. **`/XXX <args>`** 在聊天框中输入不回显。
+1. **`sm_xxx <args>`** 在控制台中输入。
+2. **`!xxx <args>`** 在聊天框中输入并回显。
+3. **`/xxx <args>`** 在聊天框中输入不回显。
 
 详细文档见【[**sourcemod/commands**](https://wiki.alliedmods.net/Commands_(SourceMod_Scripting))】
 
@@ -123,6 +123,18 @@ chmod +x compile.sh spcomp spcompe64
 ./compile.sh csgowiki-pack.sp
 ```
 
-编译结果在`/scripting/compiled/csgowiki-pack.smx`。
+编译结果路径为`/scripting/compiled/csgowiki-pack.smx`。
 
 ### 预编译参数
+
+在`/scripting/include/csgowiki.inc`中提供了一些预编译参数，不建议修改。
+
+```cpp
+#pragma dynamic 131072
+```
+开辟131072 cells的内存空间，在sourcemod中1 cell = 4 bytes，即512KB内存。
+
+```cpp
+#define PREFIX "\x01[\x05CSGO Wiki\x01]"
+```
+聊天窗口回显信息的前缀。

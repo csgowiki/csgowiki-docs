@@ -59,7 +59,7 @@ module.exports = {
             '/plugins/': [
                 '',
                 'quick_start',
-                'update',
+                'version',
                 'config',
                 'menu',
                 'admin',

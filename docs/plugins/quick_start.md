@@ -63,7 +63,7 @@ sourcemod中的常规指令有以下几种表示形式：
 
 ::: tip 阅前须知
 
-下面介绍**参与开发CSGOWiki-Pack**所需要知道的内容，如果你只对如何使用插件感兴趣，可以跳过该部分。
+下面介绍**参与开发CSGOWiki-Pack**所需要了解的内容，如果你只对如何使用插件感兴趣，可以跳过该部分。
 
 :::
 
@@ -107,5 +107,22 @@ sourcemod中的常规指令有以下几种表示形式：
 | `/scripting/include/socket.inc`   | 适用于该插件的socket头文件，原`socket.inc`不兼容sourcemod v1.10编译器 |
 
 ### 构建与编译
+
+构建该插件的编译环境，除了[**安装插件**](#安装)需要的依赖之外，还需要安装以下库用于编译：
+
+- [**sm-json**](https://github.com/clugg/sm-json)，sourcemod的json方法实现。
+
+---
+
+在`/scripting/`目录下安装[**sourcemode编译器**](https://www.sourcemod.net/downloads.php?branch=stable)
+
+以`Ubuntu 20.04LTS`操作系统为例，按sourcemod规范进行编译：
+
+```shell
+chmod +x compile.sh spcomp spcompe64
+./compile.sh csgowiki-pack.sp
+```
+
+编译结果在`/scripting/compiled/csgowiki-pack.smx`。
 
 ### 预编译参数

@@ -17,7 +17,7 @@
 CSGOWiki-Pack依赖于以下扩展环境，其兼容性如下
 
 | 插件依赖 | 最低版本 | 推荐版本 | 备注 |
-|:----:|:-----:|:----:|:----:|
+|:-----|:------|:-----|:-----|
 |[**sourcemod**](https://sourcemod.net)| v1.10.6488 | v1.10.6503 | 插件运行的基本环境 |
 |[**system2**](https://github.com/dordnung/System2/releases) | v3.2.1 | latest | HTTP/FTP等方法实现实现(应用层) |
 |[**socket**](http://forums.alliedmods.net/attachment.php?attachmentid=83286) | - | v3.0.1 | TCP/UDP套接字方法实现(传输层) |
@@ -44,6 +44,8 @@ CSGOWiki-Pack依赖于以下扩展环境，其兼容性如下
 
 其中大部分服务器在国外，平均单次请求延时约**1000ms**。
 
+在**v1.3.1**版本之后对网络请求方法进行了优化，采用惰性策略，减少了请求次数，进而优化性能。
+
 ::: tip 替换方案
 
 以上所有国外的网络服务都可以迁移至国内，不过由于费用问题可能不会长期提供。
@@ -66,15 +68,16 @@ CSGOWiki-Pack依赖于以下扩展环境，其兼容性如下
 ::: warning 提问的智慧
 
 **提问前先问自己**：
-1. 我文档读完了吗？
+1. 我文档读仔细了吗？
 2. 我尝试搜索过相关问题吗？
 3. 在Issue/群聊记录中出现过相似的问题吗？
 
 **提问时应该做到**：
+
 - 简洁清晰地描述自己遇到的问题。
 - 描述问题的触发条件以及触发频率。
 - 最好有相关问题的截图。
 - 必要时截取插件日志。
 
-如果以上内容你觉得不全面，请阅读【[**提问的智慧-详细版**](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)】
+如果你觉得以上内容不全面，请阅读【[**提问的智慧—详细版**](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)】
 :::

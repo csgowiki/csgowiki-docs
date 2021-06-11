@@ -51,8 +51,8 @@ module.exports = {
             { text: '主页', link: '/' },
             { text: '导航', link: '/guide/' },
             { text: '插件文档', link: '/plugins/' },
-            { text: 'Demo道具解析', link: '/demo-parser/' },
-            { text: '消息中继服务', link: '/message-channel/' },
+            { text: 'demo解析', link: '/demo-parser/' },
+            { text: '消息中继', link: '/message-channel/' },
             { text: 'FAQ', link: '/faq/' }
         ],
         sidebar: {

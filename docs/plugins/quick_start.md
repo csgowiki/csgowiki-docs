@@ -29,17 +29,6 @@
 
 ### 使用
 
-::: tip 指令格式
-
-sourcemod中的常规指令有以下几种表示形式：
-
-1. **`sm_xxx <args>`** 在控制台中输入。
-2. **`!xxx <args>`** 在聊天框中输入并回显。
-3. **`/xxx <args>`** 在聊天框中输入不回显。
-
-详细文档见【[**sourcemod/commands**](https://wiki.alliedmods.net/Commands_(SourceMod_Scripting))】
-
-:::
 
 **指令列表：**
 
@@ -55,9 +44,9 @@ sourcemod中的常规指令有以下几种表示形式：
 | `sm_m`       | 无             | 呼出csgowiki功能整合菜单                                     | 无                                                           | 该菜单为以上功能的整合，方便玩家索引对应的功能。             |
 
 
-
-
-详细的功能见[**功能菜单→**](./menu.md)。
+::: tip 更多指令
+上面提到的是部分常用指令，更多的功能见[**功能细节**](./menu.md)
+:::
 
 ## 进阶指南
 

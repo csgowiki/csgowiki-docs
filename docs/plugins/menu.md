@@ -11,7 +11,6 @@
 
 ### `sm_wikiop`
 
-### `sm_wiki`
 
 ### `sm_option`
 
@@ -22,7 +21,7 @@
 ### `sm_m`
 
 
-## QQ信息互通
+## QQ群—游戏消息互通
 
 ::: warning 注意
 

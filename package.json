@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/hx-w/csgowiki-docs.git",
   "author": "hx-w <herixth@163.com>",
-  "license": "GNU General Public",
+  "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.7.1",
     "@vuepress/plugin-google-analytics": "^1.8.2",

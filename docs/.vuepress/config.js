@@ -2,19 +2,21 @@ module.exports = {
     title: 'CSGOWiki 帮助中心',
     description: 'CSGOWiki 帮助中心',
     base: '/',
-    plugins: {
-        '@vuepress/search': {
+    plugins: [
+        ['@vuepress/search', {
             searchMaxSuggestions: 10
-        },
-        '@vuepress/back-to-top': true,
-        '@vuepress/pwa': {
+        }],
+        ['@vuepress/back-to-top'],
+        ['@vuepress/pwa', {
             serviceWorker: true,
             updatePopup: {
                 message: "发现新的内容",
                 buttonText: "刷新",
             }
-        }
-    },
+        }],
+        ['@vuepress/nprogress'],
+        ['@vuepress/medium-zoom']
+    ],
     head: [
         [
             'script',

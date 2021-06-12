@@ -1,4 +1,5 @@
 # csgowiki-docs
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47004260-cca8-4683-8217-1a71705d9c18/deploy-status)](https://app.netlify.com/sites/csgowiki-docs/deploys)
 
 此仓库为CSGOWiki-Web服务的帮助文档。
 

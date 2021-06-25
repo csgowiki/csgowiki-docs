@@ -64,7 +64,6 @@ module.exports = {
                 'version',
                 'config',
                 'menu',
-                'admin',
             ]
         }
     },

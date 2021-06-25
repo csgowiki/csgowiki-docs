@@ -40,6 +40,11 @@ sm_qqchat_qqgroup ""
 // Default: ""
 sm_qqchat_remark ""
 
+// Set host of the current server. `net_public_adr` will be used if this convar set empty
+// -
+// Default: ""
+sm_qqchat_sv_host ""
+
 // Accept socket connect from channel. Remember to open this port
 // -
 // Default: "50000"
@@ -87,6 +92,7 @@ sm_wiki_request_limit "1"
 | `sm_qqchat_enable`      | boolean | 0/1      | 是否开启QQ聊天功能（子功能）                                 |
 | `sm_qqchat_qqgroup`     | string  | 无       | 当前服务器绑定的QQ群号，QQ群必须真实存在且QQ机器人在群内。   |
 | `sm_qqchat_remark`      | string  | 无       | QQ机器人在群聊中转述服务器消息的前缀，默认使用中括号[]包围，不需要额外添加。 |
+| `sm_qqchat_sv_host`     | string  | 无       | 当前服务器的主机标识，为空时会自动获取`net_public_adr`作为host，一般情况下留空。 |
 | `sm_qqchat_sv_port`     | string  | 大于1024 | 服务器接收QQ群消息的端口，如果开启了QQ聊天功能，该端口须开放才能正常使用。 |
 | `sm_utility_submit_on`  | boolean | 0/1      | 是否开启道具上传功能，根据[**CSGOWiki等级规范**](https://www.csgowiki.top/profile/exp/)，该功能开启需要用户CSGOWiki等级>=`Lv3`，插件会使用`sm_csgowiki_token`进行鉴权。 |
 | `sm_utility_wiki_on`    | boolean | 0/1      | 是否开启道具合集获取功能，根据[**CSGOWiki等级规范**](https://www.csgowiki.top/profile/exp/)，该功能开启需要用户CSGOWiki等级>=`Lv1`，而道具的范围查找功能需要等级>=`Lv2`才有效，插件会使用`sm_csgowiki_token`进行鉴权。 |

@@ -79,7 +79,7 @@ sm_wiki_request_limit "1"
 
 ::: tip 注解
 
-[**ConVar**](https://wiki.alliedmods.net/ConVars_(SourceMod_Scripting))全程**Console Variables**，即控制台变量。
+[**ConVar**](https://wiki.alliedmods.net/ConVars_(SourceMod_Scripting))全称**Console Variables**，即控制台变量。
 
 在插件中被引用之后可以通过更改ConVar的值改变服务器中的插件功能。
 

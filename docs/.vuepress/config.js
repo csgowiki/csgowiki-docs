@@ -26,10 +26,18 @@ module.exports = {
   head: [
     [
       "script",
-      {
-        async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-CZJ8X185MG",
-      },
+      {},
+      `
+      <script>
+      var _hmt = _hmt || [];
+      (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?dba21c027ca3366fd0d64f2d95b74f17";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+      })();
+      </script>
+      `,
     ],
     [
       "script",
@@ -67,7 +75,7 @@ module.exports = {
       "/plugins/": ["", "quick_start", "version", "config", "menu"],
     },
   },
-  chainWebpack: config => {
-  	config.resolve.alias.set('core-js/library/fn', 'core-js/features')
+  chainWebpack: (config) => {
+    config.resolve.alias.set("core-js/library/fn", "core-js/features");
   },
 };

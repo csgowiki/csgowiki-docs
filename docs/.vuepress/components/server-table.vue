@@ -40,12 +40,12 @@ const queryData = (params) => {
 };
 
 const columns = [
-  {
-    key: "client_id",
-    title: "Client ID",
-    dataIndex: "client_id",
-    width: "15%",
-  },
+  // {
+  //   key: "client_id",
+  //   title: "Client ID",
+  //   dataIndex: "client_id",
+  //   width: "15%",
+  // },
   {
     key: "name",
     dataIndex: "name",

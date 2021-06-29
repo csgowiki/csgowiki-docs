@@ -18,7 +18,7 @@ CSGOWiki 主站域名已从 **csgowiki.top** 更换至 **mycsgolab.com**，访�
 ## 服务列表
 
 
-<server-table/>
+<server-info/>
 
 ## 开发&维护
 

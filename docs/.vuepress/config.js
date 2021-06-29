@@ -1,4 +1,7 @@
 module.exports = {
+    chainWebpack: config => {
+    	config.resolve.alias.set('core-js/library/fn', 'core-js/features')
+    },
     title: 'CSGOWiki 帮助中心',
     description: 'CSGOWiki 帮助中心',
     base: '/',

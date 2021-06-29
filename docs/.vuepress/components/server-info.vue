@@ -1,5 +1,5 @@
 <template>
-  <div>
+<a-spin :spinning="spinning" size="small">
   <a-table 
     :columns="columns" 
     :data-source="item.players" 
@@ -20,7 +20,7 @@
       <a href="#">{{steamid}}</a>
     </span>
   </a-table>
-  </div>
+</a-spin>
 </template>
 
 <script>

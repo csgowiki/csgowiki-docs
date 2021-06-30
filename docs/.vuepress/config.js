@@ -66,7 +66,4 @@ module.exports = {
       "/plugins/": ["", "quick_start", "version", "config", "menu"],
     },
   },
-  chainWebpack: (config) => {
-    config.resolve.alias.set("core-js/library/fn", "core-js/features");
-  },
 };

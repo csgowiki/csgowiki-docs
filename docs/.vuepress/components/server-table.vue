@@ -34,7 +34,7 @@
 import axios from "axios";
 
 const queryData = (params) => {
-  return axios.get("https://message-channel.vercel.app/api/server_info", {
+  return axios.get("https://service-mxw8pitd-1256946954.cd.apigw.tencentcs.com/release/api/server_info", {
     params: params,
   });
 };

@@ -1,6 +1,7 @@
 module.exports = {
   title: "CSGOWiki 帮助中心",
   description: "CSGOWiki 帮助中心",
+  theme: "antdocs",
   base: "/",
   plugins: [
     [
@@ -9,7 +10,6 @@ module.exports = {
         searchMaxSuggestions: 10,
       },
     ],
-    ["@vuepress/back-to-top"],
     [
       "@vuepress/pwa",
       {
@@ -36,7 +36,7 @@ module.exports = {
       s.parentNode.insertBefore(hm, s);
       })();
       `,
-    ]
+    ],
   ],
   themeConfig: {
     dest: "public",
@@ -46,14 +46,15 @@ module.exports = {
     lastUpdated: "上一次编辑",
     docsDir: "docs",
     docsBranch: "master",
-    repo: "hx-w/CSGOWiki-Plugins",
-    repoLabel: "GitHub",
     docsRepo: "hx-w/csgowiki-docs",
     editLinks: true,
     editLinkText: "编辑此页",
     displayAllHeaders: false,
     sidebarDepth: 2,
     activeHeaderLinks: true,
+    backToTop: true,
+    repo: "hx-w/CSGOWiki-Plugins",
+    repoLabel: "GitHub",
     nav: [
       { text: "主页", link: "/" },
       { text: "导航", link: "/guide/" },

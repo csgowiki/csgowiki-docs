@@ -3,8 +3,6 @@ home: true
 heroImage: https://ibed.csgowiki.top/image/circle_avatar
 heroText: CSGOWiki
 tagline: CS:GO相关的Web服务实现
-actionText: 快速开始 →
-actionLink: /guide/
 features:
 - title: 社区道具管理
   details: 以图文方式展示，并在游戏服务器内进行重现
@@ -13,4 +11,16 @@ features:
 - title: 消息中继服务
   details: 实现游戏服务器与QQ群聊消息互通，管理服务器变得更加方便
 footer: MIT Licensed | Copyright © 2021-present CarOL
+actionBtn:
+  text: 服务器列表
+  link: /guide/
+  type: primary
+  ghost: false
+  size: large
+preactionBtn:
+  text: 插件文档
+  link: /plugins/
+  type: primary
+  ghost: true
+  size: large
 ---

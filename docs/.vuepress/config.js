@@ -22,6 +22,16 @@ module.exports = {
     ],
     ["@vuepress/nprogress"],
     ["@vuepress/medium-zoom"],
+    ['@vssue/vuepress-plugin-vssue', {
+      // set `platform` rather than `api`
+      platform: 'github',
+
+      // all other options of Vssue are allowed
+      owner: 'hx-w',
+      repo: 'csgowiki-docs',
+      clientId: 'bfa9e2e3bf028cadf439',
+      clientSecret: '8234d9231f0c0072ad5191f7b75bb5b77016d78d',
+    }],
   ],
   head: [
     [

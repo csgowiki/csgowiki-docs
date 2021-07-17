@@ -100,3 +100,5 @@ CSGOWiki-Pack需依赖于以下扩展环境，其兼容性如下
 
 如果你觉得以上内容不全面，请阅读【[**提问的智慧—详细版**](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)】
 :::
+
+<Vssue/>

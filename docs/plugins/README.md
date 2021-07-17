@@ -1,9 +1,16 @@
+---
+title: 插件简介
+date: 2021-07-09 10:14:51
+permalink: /plugins/
+categories:
+  - plugins
+---
 # 简介
 ## CSGOWiki-Pack
 
 [**CSGOWiki-Pack**](https://github.com/hx-w/CSGOWiki-Plugins)是基于sourcemod实现的CSGOWiki游戏服务器插件。
 
-::: tip 插件下载
+::: center 插件下载
 
 ![release version](https://img.shields.io/github/v/release/hx-w/CSGOWiki-Plugins?include_prereleases)
 ![GitHub](https://img.shields.io/github/downloads/hx-w/CSGOWiki-Plugins/total)

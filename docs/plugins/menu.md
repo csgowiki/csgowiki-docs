@@ -1,3 +1,10 @@
+---
+title: 功能细节
+date: 2021-07-09 10:14:51
+permalink: /plugins/function
+categories:
+  - plugins
+---
 # 功能细节
 
 本章节会详细介绍CSGOWiki-Pack中的各种功能。

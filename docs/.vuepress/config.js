@@ -1,7 +1,7 @@
 module.exports = {
   title: "CSGOWiki 帮助中心",
   description: "CSGOWiki 帮助中心",
-  theme: "antdocs",
+  theme: "vdoing",
   base: "/",
   plugins: [
     [
@@ -39,6 +39,10 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    tag: false,
+    category: false,
+    archive: false,
+    contentBgStyle: 1,
     dest: "public",
     search: true,
     searchMaxSuggestions: 5,
@@ -50,7 +54,6 @@ module.exports = {
     editLinks: true,
     editLinkText: "编辑此页",
     displayAllHeaders: false,
-    sidebarDepth: 2,
     activeHeaderLinks: true,
     backToTop: true,
     repo: "hx-w/CSGOWiki-Plugins",
@@ -65,6 +68,10 @@ module.exports = {
     ],
     sidebar: {
       "/plugins/": ["", "quick_start", "version", "config", "menu"],
+      collapsable: true
     },
+    author: {'name': 'CarOL', 'link': 'https://blog.hx-w.top'},
+    updateBar: { showToArticle: false },
+    footer: {createYear: 2021, copyrightInfo: 'Present CarOL'},
   },
 };

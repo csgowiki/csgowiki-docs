@@ -1,3 +1,10 @@
+---
+title: 导航
+date: 2021-07-09 10:14:51
+permalink: /guide/
+categories:
+  - guide
+---
 # 简介
 
 **CSGOWiki是面向CS:GO玩家的一体化Web服务。**

@@ -1,3 +1,10 @@
+---
+title: CFG配置
+date: 2021-07-09 10:14:51
+permalink: /plugins/config/
+categories:
+  - plugins
+---
 # CFG配置
 
 ::: tip 写在前面

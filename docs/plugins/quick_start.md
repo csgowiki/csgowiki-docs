@@ -1,3 +1,10 @@
+---
+title: 快速开始
+date: 2021-07-09 10:14:51
+permalink: /plugins/quick_start/
+categories:
+  - plugins
+---
 # 快速开始
 
 欢迎来到CSGOWiki-Pack文档:clap:！本章节会告诉你怎么如何**快速安装插件**与**构建本地开发环境**。

@@ -14,4 +14,7 @@ features:
   details: 实现游戏服务器与QQ群聊消息互通，管理服务器变得更加方便
   link: /message-channel/
 postList: none
+actionText: 前往导航 →
+actionLink: /guide/
+bannerBg: none
 ---

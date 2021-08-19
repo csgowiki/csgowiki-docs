@@ -22,6 +22,11 @@ categories:
 // ConVars for plugin "csgowiki-pack.smx"
 
 
+// Alternative option for this setting is `https://api.mycsgolab.com` which source in Hongkong
+// -
+// Default: "https://apiproxy.mycsgolab.com:5555"
+sm_csgowiki_apihost "https://apiproxy.mycsgolab.com:5555"
+
 // Set wether enable csgowiki plugins or not. Set 0 will disable all modules belong to CSGOWiki.
 // -
 // Default: "0"
@@ -94,6 +99,7 @@ sm_wiki_request_limit "1"
 
 | ConVar                  | 值类型  | 限制     | 备注                                                         |
 | ----------------------- | ------- | -------- | ------------------------------------------------------------ |
+| `sm_csgowiki_apihost`   | string  | 可用的CSGOWiki API | 服务器在国内填`https://apiproxy.mycsgolab.com:5555`，在国外填`https://api.mycsgolab.com` |
 | `sm_csgowiki_enable`    | boolean | 0/1      | 是否开启该插件的功能，如果为0则禁用该插件的所有功能。        |
 | `sm_csgowiki_token`     | string  | 无       | 在[**CSGOWiki个人主页**](https://www.csgowiki.top/profile/revise/)中获取token，为用户的隐私数据，用于功能鉴权，**必须填写**。 |
 | `sm_qqchat_enable`      | boolean | 0/1      | 是否开启QQ聊天功能（子功能）                                 |
@@ -115,8 +121,6 @@ sm_wiki_request_limit "1"
 - `sm_utility_wiki_on`控制的道具合集获取功能包括**社区道具合集**和**职业道具合集**。
 
 - `sm_wiki_request_limit`只对玩家对**社区道具合集**的访问频率做限制。
-
-  根据[**CSGOWiki等级规范**](https://www.csgowiki.top/profile/exp/)，CSGOWiki主站对服务器访问社区道具合集的次数做了限制，每天0点重置。
 
 :::
 

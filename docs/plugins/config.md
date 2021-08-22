@@ -101,7 +101,7 @@ sm_wiki_request_limit "1"
 | ----------------------- | ------- | -------- | ------------------------------------------------------------ |
 | `sm_csgowiki_apihost`   | string  | 可用的CSGOWiki API | 服务器在国内填`https://apiproxy.mycsgolab.com:5555`，在国外填`https://api.mycsgolab.com` |
 | `sm_csgowiki_enable`    | boolean | 0/1      | 是否开启该插件的功能，如果为0则禁用该插件的所有功能。        |
-| `sm_csgowiki_token`     | string  | 无       | 在[**CSGOWiki个人主页**](https://www.csgowiki.top/profile/revise/)中获取token，为用户的隐私数据，用于功能鉴权，**必须填写**。 |
+| `sm_csgowiki_token`     | string  | 无       | 在[**CSGOWiki社区服务页**](https://www.mycsgolab.com/tool/server/)中获取token，为用户的隐私数据，用于功能鉴权，**必须填写**。 |
 | `sm_qqchat_enable`      | boolean | 0/1      | 是否开启QQ聊天功能（子功能）                                 |
 | `sm_qqchat_qqgroup`     | string  | 无       | 当前服务器绑定的QQ群号，QQ群必须真实存在且QQ机器人在群内。   |
 | `sm_qqchat_remark`      | string  | 无       | QQ机器人在群聊中转述服务器消息的前缀，默认使用中括号[]包围，不需要额外添加。 |

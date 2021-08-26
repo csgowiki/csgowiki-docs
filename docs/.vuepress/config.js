@@ -20,8 +20,6 @@ module.exports = {
         },
       },
     ],
-    ["@vuepress/nprogress"],
-    ["@vuepress/medium-zoom"],
     ['@vssue/vuepress-plugin-vssue', {
       // set `platform` rather than `api`
       platform: 'github',

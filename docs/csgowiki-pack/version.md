@@ -1,9 +1,9 @@
 ---
 title: 版本规范
 date: 2021-07-09 10:14:51
-permalink: /plugins/version
+permalink: /csgowiki-pack/version
 categories:
-  - plugins
+  - csgowiki-pack
 ---
 # 版本更新
 

@@ -1,16 +1,25 @@
 ---
-title: 消息通道
+title: 消息通道简介
 date: 2021-07-09 10:14:51
 permalink: /message-channel/
 categories:
   - message-channel
-tags:
-  - 
 ---
 # 简介
 
-## 架构图
+## message channel
 
-![](https://ibed.csgowiki.top/image/YNUN0IPS%5D30$E7%5DX614EKNI.png)
+::: center
+<br/>
+
+[**message channel**](https://github.com/hx-w/message-channel)是基于docker实现的，CS:GO服务器与QQ群双向信息通信框架。
+:::
+
+## 特性
+
+- 使用任意属于自己的正常qq号转发消息
+- 多服务器注册支持
+- 支持服务器状态查询
+- 方便拓展的qq插件或csgo插件
 
 <Vssue/>

@@ -1,9 +1,9 @@
 ---
 title: 插件简介
 date: 2021-07-09 10:14:51
-permalink: /plugins/
+permalink: /csgowiki-pack/
 categories:
-  - plugins
+  - csgowiki-pack
 ---
 # 简介
 ## CSGOWiki-Pack

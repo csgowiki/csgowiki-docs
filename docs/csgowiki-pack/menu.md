@@ -1,9 +1,9 @@
 ---
 title: 功能细节
 date: 2021-07-09 10:14:51
-permalink: /plugins/function
+permalink: /csgowiki-pack/function
 categories:
-  - plugins
+  - csgowiki-pack
 ---
 # 功能细节
 

@@ -1,9 +1,9 @@
 ---
 title: CFG配置
 date: 2021-07-09 10:14:51
-permalink: /plugins/config/
+permalink: /csgowiki-pack/config/
 categories:
-  - plugins
+  - csgowiki-pack
 ---
 # CFG配置
 

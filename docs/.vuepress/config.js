@@ -70,13 +70,14 @@ module.exports = {
     nav: [
       { text: "主页", link: "/" },
       { text: "导航", link: "/guide/" },
-      { text: "插件文档", link: "/plugins/" },
+      { text: "csgowiki插件", link: "/csgowiki-pack/" },
       { text: "demo解析", link: "/demo-parser/" },
       { text: "消息中继", link: "/message-channel/" },
       { text: "FAQ", link: "/faq/" },
     ],
     sidebar: {
-      "/plugins/": ["", "quick_start", "version", "config", "menu"],
+      "/csgowiki-pack/": ["", "quick_start", "version", "config", "menu"],
+      "/message-channel/": ["", "quick_start"],
       collapsable: true
     },
     author: {'name': 'CarOL', 'link': 'https://blog.hx-w.top'},

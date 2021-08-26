@@ -1,9 +1,9 @@
 ---
 title: 快速开始
 date: 2021-07-09 10:14:51
-permalink: /plugins/quick_start/
+permalink: /csgowiki-pack/quick_start/
 categories:
-  - plugins
+  - csgowiki-pack
 ---
 # 快速开始
 

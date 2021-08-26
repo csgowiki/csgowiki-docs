@@ -18,3 +18,30 @@ actionText: 前往导航 →
 actionLink: /guide/
 bannerBg: none
 ---
+
+## :trophy: CSGOWiki技术仓库
+
+::: cardList 4
+```yaml
+- name: CSGOWiki-Pack
+  desc: csgowiki跑图练习插件
+  link: https://github.com/hx-w/CSGOWiki-Plugins
+  bgColor: '#FFE4E1'
+  textColor: '#2A3344'
+- name: hltv-utility-api
+  desc: 每日职业比赛道具解析接口
+  link: https://github.com/hx-w/hltv-utility-api
+  bgColor: '#B0E0E6'
+  textColor: '#2A3344'
+- name: message-channel
+  desc: 实现游戏服务器与qq群双向通信
+  link: https://github.com/hx-w/message-channel
+  bgColor: '#FFF8DC'
+  textColor: '#2A3344'
+- name: simple-practicemode
+  desc: 精简汉化的跑图插件
+  link: https://github.com/hx-w/simple-practicemode
+  bgColor: '#DFEEE7'
+  textColor: '#2A3344'
+```
+:::

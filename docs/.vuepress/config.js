@@ -52,7 +52,6 @@ module.exports = {
     tag: false,
     category: false,
     archive: false,
-    contentBgStyle: 1,
     dest: "public",
     search: true,
     searchMaxSuggestions: 5,

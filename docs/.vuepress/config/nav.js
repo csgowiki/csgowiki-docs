@@ -18,7 +18,8 @@ module.exports = [
   {
     text: '消息通道', link: '/message-channel/index/', items: [
       { text: '介绍', link: '/message-channel/index/' },
-      { text: '快速上手', link: '/message-channel/quick_start/' }
+      { text: '快速上手', link: '/message-channel/quick_start/' },
+      { text: '详细配置', link: '/message-channel/config/' }
     ]
   },
   {

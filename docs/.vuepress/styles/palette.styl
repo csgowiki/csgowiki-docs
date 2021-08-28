@@ -1,53 +1,34 @@
-// 主题调色板
 
-// 原主题预设变量
-// 颜色
-// $accentColor = #3eaf7c
-// $textColor = #2c3e50
-// $borderColor = #eaecef
-// $codeBgColor = #282c34
+// 原主题变量已弃用，以下是vdoing使用的变量，你可以在这个文件内修改它们。
+
+//***vdoing主题-变量***//
+
+// // 颜色
+ 
+// $bannerTextColor = #fff // 首页banner区(博客标题)文本颜色
+$accentColor = #6499B5
 // $arrowBgColor = #ccc
 // $badgeTipColor = #42b983
 // $badgeWarningColor = darken(#ffe564, 35%)
 // $badgeErrorColor = #DA5961
-// 布局
+
+// // 布局
 // $navbarHeight = 3.6rem
-// $sidebarWidth = 20rem
-// $contentWidth = 740px
-// $homePageWidth = 960px
-// 代码块
-// $lineNumbersWrapperWidth = 3.5rem
+// $sidebarWidth = 18rem
+// $contentWidth = 860px
+// $homePageWidth = 1100px
+// $rightMenuWidth = 230px // 右侧菜单
 
-//***vdoing主题-变量***//
-
-// 颜色
-
-$bannerTextColor = #fff // 首页banner区(博客标题)文本颜色
-$accentColor = #449390
-$activeColor = #ff5722
-$arrowBgColor = #ccc
-$badgeTipColor = #42b983
-$badgeWarningColor = darken(#ffe564, 35%)
-$badgeErrorColor = #DA5961
-
-// 布局
-$navbarHeight = 3.6rem
-$sidebarWidth = 18rem
-$contentWidth = 860px
-$homePageWidth = 1100px
-$rightMenuWidth = 230px // 右侧菜单
-
-// 代码块
-$lineNumbersWrapperWidth = 2.5rem
+// // 代码块
+// $lineNumbersWrapperWidth = 2.5rem
 
 // 浅色模式
 .theme-mode-light
-  --bodyBg: #f4f4f4
+  --bodyBg: rgba(255,255,255,1)
   --mainBg: rgba(255,255,255,1)
   --sidebarBg: rgba(255,255,255,.8)
   --blurBg: rgba(255,255,255,.9)
-  --customBlockBg: #f1f1f1
-  --textColor: #00323c
+  --textColor: #004050
   --textLightenColor: #0085AD
   --borderColor: rgba(0,0,0,.15)
   --codeBg: #f6f6f6
@@ -56,12 +37,11 @@ $lineNumbersWrapperWidth = 2.5rem
 
 // 深色模式
 .theme-mode-dark
-  --bodyBg: rgb(39,39,43)
+  --bodyBg: rgba(30,30,34,1)
   --mainBg: rgba(30,30,34,1)
   --sidebarBg: rgba(30,30,34,.8)
   --blurBg: rgba(30,30,34,.8)
-  --customBlockBg: rgb(39,39,43)
-  --textColor: rgb(155,155,170)
+  --textColor: rgb(140,140,150)
   --textLightenColor: #0085AD
   --borderColor: #2C2C3A
   --codeBg: #252526
@@ -70,13 +50,12 @@ $lineNumbersWrapperWidth = 2.5rem
 
 // 阅读模式
 .theme-mode-read
-  --bodyBg: rgb(236,236,204)
+  --bodyBg: rgba(245,245,213,1)
   --mainBg: rgba(245,245,213,1)
   --sidebarBg: rgba(245,245,213,.8)
   --blurBg: rgba(245,245,213,.9)
-  --customBlockBg: rgb(236,236,204)
-  --textColor: #704214
-  --textLightenColor: #996633
+  --textColor: #004050
+  --textLightenColor: #0085AD
   --borderColor: rgba(0,0,0,.15)
   --codeBg: #282c34
   --codeColor: #fff

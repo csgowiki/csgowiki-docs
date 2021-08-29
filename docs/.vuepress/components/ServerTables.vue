@@ -99,7 +99,7 @@ export default {
     },
     getData(callback) {
       reqwest({
-        url: "http://s1.csgowiki.top:8080/api/server_info?qq_group=762993431",
+        url: "https://s1.csgowiki.top:8080/api/server_info?qq_group=762993431",
         type: 'json',
         method: 'get',
         contentType: 'application/json',

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button v-on:click=regenerateToken>重新生成Token</button>
+    <a-button type="primary" @click="regenerateToken" icon="deployment-unit">刷新token</a-button>
     <div class="language-yaml line-numbers-mode">
       <pre
         class="language-yaml"

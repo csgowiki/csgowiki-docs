@@ -10,6 +10,8 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "ant-design-vue": "^1.7.8",
+    "core-js": "^2.6.12",
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
@@ -21,6 +23,5 @@
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.8.1",
     "yamljs": "^0.3.0"
-  },
-  "dependencies": {}
+  }
 }

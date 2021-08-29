@@ -28,7 +28,7 @@ module.exports = [
       { text: '文件格式', link: '/demo/format/' }
     ]
   },
-  { text: '问答', link: '/q&a/' },
-  { text: '💖支持', link: '/sponsor/' },
-  { text: '反馈', link: '/feedback/' },
+  { text: '问答', link: '/q&a' },
+  { text: '💖支持', link: '/sponsor' },
+  { text: '反馈', link: '/feedback' },
 ]

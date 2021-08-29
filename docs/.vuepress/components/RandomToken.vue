@@ -39,12 +39,12 @@ function uuid(len, radix) {
 export default {
     data() {
         return {
-            token: uuid(32, 16),
+            token: uuid(32, 62),
         };
     },
     methods: {
         regenerateToken() {
-            this.token= uuid(32, 16);
+            this.token= uuid(32, 62);
         }
     }
 }

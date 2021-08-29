@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a-button type="primary" @click="regenerateToken" icon="deployment-unit">刷新token</a-button>
+    <a-button type="primary" @click="regenerateToken" icon="reload">刷新token</a-button>
     <div class="language-yaml line-numbers-mode">
       <pre
         class="language-yaml"

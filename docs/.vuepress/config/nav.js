@@ -3,7 +3,8 @@ module.exports = [
   {
     text: '导航', link: '/guide/index/', items: [
       { text: '介绍', link: '/guide/index/' },
-      { text: '服务器列表', link: '/guide/server_list/' }
+      { text: '服务器列表', link: '/guide/server_list/' },
+      { text: '开发与维护', link: '/guide/operators/' }
     ]
   },
   {

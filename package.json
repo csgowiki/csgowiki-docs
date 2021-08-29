@@ -11,11 +11,11 @@
   "license": "MIT",
   "devDependencies": {
     "ant-design-vue": "^1.7.8",
-    "axios": "^0.21.1",
     "core-js": "^2.6.12",
     "dayjs": "^1.9.7",
     "inquirer": "^7.1.0",
     "json2yaml": "^1.1.0",
+    "reqwest": "^2.0.5",
     "vuepress": "^1.4.1",
     "vuepress-plugin-baidu-tongji": "^1.0.1",
     "vuepress-plugin-demo-block": "^0.7.2",
@@ -24,8 +24,5 @@
     "vuepress-plugin-zooming": "^1.1.7",
     "vuepress-theme-vdoing": "^1.8.1",
     "yamljs": "^0.3.0"
-  },
-  "dependencies": {
-    "reqwest": "^2.0.5"
   }
 }

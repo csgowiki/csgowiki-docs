@@ -57,12 +57,8 @@
 </style>
 
 <script>
-import axios from "axios";
-const queryData = (params) => {
-  return axios.get("http://s1.csgowiki.top:8080/api/server_info", {
-    params: params,
-  });
-};
+import reqwest from "reqwest";
+
 const columns = [
   {
     key: "player_name",
@@ -99,8 +95,21 @@ export default {
   },
   methods: {
     handleButtonClick() {
-      // this.$message.warning("敬请期待");
       this.fetch();
+    },
+    getData(callback) {
+      reqwest({
+        url: "http://s1.csgowiki.top:8080/api/server_info?qq_group=762993431",
+        type: 'json',
+        method: 'get',
+        contentType: 'application/json',
+        success: res => {
+          callback(res);
+        },
+        error: res => {
+          this.$message.error("服务器列表加载失败：" + res.message);
+        }
+      });
     },
     handleTableChange(filters, sorter) {
       this.fetch({
@@ -111,20 +120,9 @@ export default {
     },
     fetch(params = {}) {
       this.spinning = true;
-      queryData({
-        qq_group: 762993431,
-        server_id: -1,
-        ...params,
-      }).then(({ data }) => {
-        // Read total count from server
+      this.getData(res => {
         this.spinning = false;
-        console.log(data.results);
-        if (data.message != "send message success!") {
-          this.$message.error("服务器列表加载失败：" + data.message);
-        } else {
-          this.$message.success("服务器列表加载成功");
-          this.data = data.results;
-        }
+        this.data = res.results;
       });
     },
   },

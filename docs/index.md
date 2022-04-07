@@ -30,7 +30,7 @@ postList: none
 ```yaml
 - name: CSGOWiki-Pack
   desc: csgowiki跑图练习插件
-  link: https://github.com/hx-w/CSGOWiki-Plugins
+  link: https://github.com/csgowiki/csgowiki-pack
   bgColor: '#FFE4E1'
   textColor: '#2A3344'
 - name: hltv-utility-api
@@ -60,7 +60,7 @@ CSGOWiki的出现是为了解决国内CSGO玩家缺乏合理的练习方式的�
   * [网站](https://mycsgolab.com)
   * [游戏社区](https://csgo.wanmei.com/communityserver/category)
   * [创意工坊地图](https://steamcommunity.com/workshop/filedetails/?id=2559178769)
-  * [游戏插件](https://github.com/hx-w/CSGOWiki-Plugins)
+  * [游戏插件](https://github.com/csgowiki/csgowiki-pack)
   * 各类网络服务（见上方技术仓库）
 
 **CSGOWiki的发展将一直围绕着提供给玩家更合理更优质的学习/跑图服务进行。**

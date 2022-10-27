@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://ibed.csgowiki.top/image/circle_avatar
+heroImage: https://imgbed.scubot.com/image/circle_avatar
 heroText: CSGOWiki
 tagline: 🚀CS:GO相关的Web服务实现
 actionText: 前往导航 →
@@ -57,7 +57,7 @@ postList: none
 
 
 CSGOWiki的出现是为了解决国内CSGO玩家缺乏合理的练习方式的问题，提供的服务包括：
-  * [网站](https://mycsgolab.com)
+  * [网站](https://www.mycsgolab.com)
   * [游戏社区](https://csgo.wanmei.com/communityserver/category)
   * [创意工坊地图](https://steamcommunity.com/workshop/filedetails/?id=2559178769)
   * [游戏插件](https://github.com/csgowiki/csgowiki-pack)

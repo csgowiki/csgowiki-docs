@@ -3,7 +3,7 @@ module.exports = [
   {
     text: '导航', link: '/guide/index/', items: [
       { text: '介绍', link: '/guide/index/' },
-      { text: '服务器列表', link: '/guide/server_list/' },
+      // { text: '服务器列表', link: '/guide/server_list/' },
       { text: '开发与维护', link: '/guide/operators/' }
     ]
   },
@@ -21,7 +21,8 @@ module.exports = [
       { text: '介绍', link: '/message-channel/index/' },
       { text: '快速上手', link: '/message-channel/quick_start/' },
       { text: '详细配置', link: '/message-channel/config/' },
-      { text: '进阶内容', link: '/message-channel/advance/' }
+      { text: '进阶内容', link: '/message-channel/advance/' },
+      { text: '常见问题', link: '/message-channel/q&a/' }
     ]
   },
   {
@@ -31,6 +32,5 @@ module.exports = [
     ]
   },
   { text: '问答', link: '/q&a/' },
-  { text: '💖支持', link: '/sponsor/' },
   { text: '反馈', link: '/feedback/' },
 ]
